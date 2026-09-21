@@ -17,6 +17,8 @@ public class CarroTest01 {
         carro2.modelo = "Classic";
         carro2.ano = 2013;
 
+        carro1 = carro2;
+
         System.out.println("Carro 1 - "+carro1.nome+ " | "+ carro1.modelo+ " | "+ carro1.ano);
         System.out.println("Carro 2 - "+carro2.nome+ " | "+ carro2.modelo+ " | "+ carro2.ano);
     }
